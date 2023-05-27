@@ -1,0 +1,44 @@
+#divBar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+#navBar{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navBar__list{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style-type: none;
+    margin-right: 10rem;
+}
+
+a{
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#logo{
+    max-width: 160px;
+    margin-left: 4rem;
+}
